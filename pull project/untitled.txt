@@ -1,0 +1,22 @@
+Install visual studio tools for C++ 
+install PGAdmin:
+
+CREATE TABLE users (
+    id serial PRIMARY KEY,
+    name            VARCHAR(50) NOT NULL,
+    date            DATE NOT NULL,
+    arrival_time    TIME ,
+    departure_time  TIME,
+    arrival_picture VARCHAR(255),
+    departure_picture   VARCHAR(255)  
+    
+);
+
+source API/myenv/script/activate
+cd FRONT
+npm install react-scripts@latest
+npm start
+
+
+
+localhost:3000
